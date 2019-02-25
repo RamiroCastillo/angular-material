@@ -3,7 +3,13 @@ import {
   MatDatepickerModule,
   MatFormFieldModule,
   MatInputModule,
-  MatIconModule
+  MatIconModule,
+  MatToolbarModule,
+  MatMenuModule,
+  MatSidenavModule,
+  MatDividerModule,
+  MatListModule,
+  MatExpansionModule
 } from '@angular/material';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -16,14 +22,28 @@ import { CommonModule } from '@angular/common';
     MatDatepickerModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatDividerModule,
+    MatListModule,
+    MatExpansionModule
+
   ],
   exports: [
     MatButtonModule,
     MatDatepickerModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatDividerModule,
+    MatListModule,
+    MatExpansionModule
+
   ]
 })
 export class MaterialModule { }
