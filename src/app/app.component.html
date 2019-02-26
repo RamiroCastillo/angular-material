@@ -12,11 +12,11 @@
           </mat-panel-description>
         </mat-expansion-panel-header>
         <mat-list role="list">
-          <mat-list-item role="listitem">
+          <mat-list-item role="listitem" [routerLink]="['/autocomplete-material']" >
             Autocomplete
           </mat-list-item>
           <mat-list-item role="listitem">
-            CehckBox
+            CheckBox
           </mat-list-item>
           <mat-list-item role="listitem">
             Datepicker
@@ -56,6 +56,47 @@
             </mat-list-item>
             <mat-list-item role="listitem">
               Toolbar
+            </mat-list-item>
+          </mat-list>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Buttons
+            </mat-panel-title>
+            <mat-panel-description>
+              Material Angular
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-list role="list">
+            <mat-list-item role="listitem" [routerLink]="['/button-material']">
+              Button
+            </mat-list-item>
+            
+          </mat-list>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Ejemplo
+            </mat-panel-title>
+            <mat-panel-description>
+              Material Angular
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <mat-list role="list">
+            <mat-list-item role="listitem" [routerLink]="['/add-words']">
+              Add Words
+            </mat-list-item>
+          </mat-list>
+          <mat-list role="list">
+            <mat-list-item role="listitem" [routerLink]="['/see-words']">
+              See Words
+            </mat-list-item>
+          </mat-list>
+          <mat-list role="list">
+            <mat-list-item role="listitem" [routerLink]="['/http-request']">
+              Http request
             </mat-list-item>
           </mat-list>
         </mat-expansion-panel>
