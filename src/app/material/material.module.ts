@@ -9,10 +9,13 @@ import {
   MatSidenavModule,
   MatDividerModule,
   MatListModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatAutocompleteModule
 } from '@angular/material';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+// Modulo que permite cargar todos aquellos modulos y componentes de Angular Material que vayamos a necesitar
 
 @NgModule({
   declarations: [],
@@ -28,8 +31,8 @@ import { CommonModule } from '@angular/common';
     MatSidenavModule,
     MatDividerModule,
     MatListModule,
-    MatExpansionModule
-
+    MatExpansionModule,
+    MatAutocompleteModule
   ],
   exports: [
     MatButtonModule,
@@ -42,8 +45,8 @@ import { CommonModule } from '@angular/common';
     MatSidenavModule,
     MatDividerModule,
     MatListModule,
-    MatExpansionModule
-
+    MatExpansionModule,
+    MatAutocompleteModule
   ]
 })
 export class MaterialModule { }
