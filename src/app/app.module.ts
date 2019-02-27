@@ -18,7 +18,6 @@ import { AddWordComponent } from './components/add-word/add-word.component';
 import { SeeWordComponent } from './components/see-word/see-word.component';
 import { HttpRequestComponent } from './components/http-request/http-request.component';
 
-
 @NgModule({
   // declaramos todos los componentes q usaremos
   declarations: [

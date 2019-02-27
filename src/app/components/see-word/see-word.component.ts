@@ -34,7 +34,7 @@ export class SeeWordComponent implements OnInit {
       });
       this.data = result;
       console.log(result);
-    })
+    });
   }
 
   countleo(ary, classifier) {
