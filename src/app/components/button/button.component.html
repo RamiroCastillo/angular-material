@@ -1,8 +1,51 @@
-<button (click)= "api()" mat-button>Get images</button>
+<div class="main-div">
 
-<img [src]="foto" alt="">
+    <mat-card class="center">
 
-{{ answer }}
+        <mat-card-title style="padding-left: 25px">
+            Button Component
+        </mat-card-title>
+        <mat-card-subtitle style="padding-left: 25px">
+            In Angular Material
+        </mat-card-subtitle>
+        <mat-card-content style="padding:25px">
 
+            <p>Normal Button</p>
+            <!-- mat-button	Rectangular text button w/ no elevation -->
+            <button class="full-width" mat-button>Click me!</button>
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <p>Raised Button</p>
+            <!-- mat-raised-button	Rectangular contained button w/ elevation -->
+            <button class="full-width" mat-raised-button>Click me!</button>
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <p>Flat Button</p>
+            <!-- mat-flat-button	Rectangular contained button w/ no elevation -->
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <p>Stroked Button</p>
+            <!-- mat-stroked-button	Rectangular outlined button w/ no elevation -->
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <p>Icon Button</p>
+            <!-- mat-icon-button    Circular button with a transparent background, meant to contain an icon -->
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <p>Fab Button</p>
+            <!-- mat-fab	Circular button w/ elevation, defaults to theme's accent color -->
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <p>Mini Fab Button</p>
+            <!-- mat-mini-fab -->
 
- 
+        </mat-card-content>
+    </mat-card>
+</div>
+
