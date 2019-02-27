@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'app-add-word',
@@ -26,5 +27,6 @@ export class AddWordComponent implements OnInit {
   send() {
     const items = this.db.collection('business');
     items.add(this.formGroup.value);
+    this.formGroup.reset();
   }
 }
