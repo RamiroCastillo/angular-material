@@ -15,6 +15,8 @@ import { IconComponent } from './components/icon/icon.component';
 import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { SelectComponent } from './components/select/select.component';
+import { TableComponent } from './components/table/table.component';
 
 // Rutas del proyecto
 // cata ruta se define mediante la palabra path
@@ -67,6 +69,12 @@ const routes: Routes = [
   {
     path: 'snackbar-material', component: SnackbarComponent
   },
+  {
+    path: 'select-material', component: SelectComponent
+  },
+  {
+    path: 'table-material', component: TableComponent
+  }
 ];
 
 @NgModule({

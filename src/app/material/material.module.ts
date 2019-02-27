@@ -15,7 +15,12 @@ import {
   MatCheckboxModule,
   MatRadioModule,
   MatBadgeModule,
-  MatBottomSheetModule
+  MatBottomSheetModule,
+  MatSelect,
+  MatSelectModule,
+  MatTableModule,
+  MatSortModule,
+  MatPaginatorModule
 } from '@angular/material';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -42,7 +47,11 @@ import { CommonModule } from '@angular/common';
     MatCheckboxModule,
     MatRadioModule,
     MatBadgeModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,
+    MatSelectModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule 
   ],
   exports: [
     MatButtonModule,
@@ -61,8 +70,12 @@ import { CommonModule } from '@angular/common';
     MatCheckboxModule,
     MatRadioModule,
     MatBadgeModule,
-    MatBottomSheetModule
-    
+    MatBottomSheetModule,
+    MatSelectModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule 
+
   ]
 })
 export class MaterialModule { }

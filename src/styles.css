@@ -25,3 +25,7 @@
   .mat-radio-button ~ .mat-radio-button {
     margin-left: 32px;
   }
+
+  .row-hover{
+    background-color: #eaeaea;
+  }

@@ -28,8 +28,10 @@ import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.com
 import { BottomSheetOverviewComponent } from './components/bottom-sheet/bottom-sheet-overview/bottom-sheet-overview.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 import { SnackbarComponent } from './components/snackbar/snackbar.component';
-import { UpperCasePipe } from '@angular/common';
 import { UppercaseDirective } from './directivas/uppercase.directive';
+import { SelectComponent } from './components/select/select.component';
+import { TableComponent } from './components/table/table.component';
+import { RowHoverDirective } from './directivas/row-hover.directive';
 
 @NgModule({
   // declaramos todos los componentes q usaremos
@@ -51,7 +53,10 @@ import { UppercaseDirective } from './directivas/uppercase.directive';
     BottomSheetOverviewComponent,
     DialogComponent,
     SnackbarComponent,
-    UppercaseDirective
+    UppercaseDirective,
+    SelectComponent,
+    TableComponent,
+    RowHoverDirective
   ],
   // importamos todos los modulos los cuales necesitaremos
   imports: [

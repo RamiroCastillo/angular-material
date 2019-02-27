@@ -117,12 +117,17 @@
       <mat-expansion-panel>
           <mat-expansion-panel-header>
             <mat-panel-title>
-              Ejemplo
+              Demo
             </mat-panel-title>
             <mat-panel-description>
               Material Angular
             </mat-panel-description>
           </mat-expansion-panel-header>
+          <mat-list role="list">
+              <mat-list-item role="listitem" [routerLink]="['/table-material']">
+                Table
+              </mat-list-item>
+            </mat-list>
           <mat-list role="list">
             <mat-list-item role="listitem" [routerLink]="['/add-words']">
               Add Words
