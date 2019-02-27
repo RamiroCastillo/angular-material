@@ -17,6 +17,19 @@ import { TagCloudModule } from 'angular-tag-cloud-module';
 import { AddWordComponent } from './components/add-word/add-word.component';
 import { SeeWordComponent } from './components/see-word/see-word.component';
 import { HttpRequestComponent } from './components/http-request/http-request.component';
+import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
+import { InputComponent } from './components/input/input.component';
+import { RadioComponent } from './components/radio/radio.component';
+import { BadgeComponent } from './components/badge/badge.component';
+import { ChipsComponent } from './components/chips/chips.component';
+import { IconComponent } from './components/icon/icon.component';
+import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component';
+import { BottomSheetOverviewComponent } from './components/bottom-sheet/bottom-sheet-overview/bottom-sheet-overview.component';
+import { DialogComponent } from './components/dialog/dialog.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { UpperCasePipe } from '@angular/common';
+import { UppercaseDirective } from './directivas/uppercase.directive';
 
 @NgModule({
   // declaramos todos los componentes q usaremos
@@ -26,7 +39,19 @@ import { HttpRequestComponent } from './components/http-request/http-request.com
     AutocompleteComponent,
     AddWordComponent,
     SeeWordComponent,
-    HttpRequestComponent
+    HttpRequestComponent,
+    CheckboxComponent,
+    DatepickerComponent,
+    InputComponent,
+    RadioComponent,
+    BadgeComponent,
+    ChipsComponent,
+    IconComponent,
+    BottomSheetComponent,
+    BottomSheetOverviewComponent,
+    DialogComponent,
+    SnackbarComponent,
+    UppercaseDirective
   ],
   // importamos todos los modulos los cuales necesitaremos
   imports: [
@@ -52,6 +77,9 @@ import { HttpRequestComponent } from './components/http-request/http-request.com
     BrowserModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    BottomSheetOverviewComponent
+  ]
 })
 export class AppModule { }

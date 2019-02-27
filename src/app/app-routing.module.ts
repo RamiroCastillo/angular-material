@@ -5,6 +5,16 @@ import { ButtonComponent } from './components/button/button.component';
 import { AddWordComponent } from './components/add-word/add-word.component';
 import { SeeWordComponent } from './components/see-word/see-word.component';
 import { HttpRequestComponent } from './components/http-request/http-request.component';
+import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
+import { InputComponent } from './components/input/input.component';
+import { RadioComponent } from './components/radio/radio.component';
+import { BadgeComponent } from './components/badge/badge.component';
+import { ChipsComponent } from './components/chips/chips.component';
+import { IconComponent } from './components/icon/icon.component';
+import { BottomSheetComponent } from './components/bottom-sheet/bottom-sheet.component';
+import { DialogComponent } from './components/dialog/dialog.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
 
 // Rutas del proyecto
 // cata ruta se define mediante la palabra path
@@ -25,8 +35,38 @@ const routes: Routes = [
     path: 'see-words', component: SeeWordComponent
   },
   {
-    path: 'http-client', component: HttpRequestComponent
-  }
+    path: 'http-request', component: HttpRequestComponent
+  },
+  {
+    path: 'checkbox-material', component: CheckboxComponent
+  },
+  {
+    path: 'datepicker-material', component: DatepickerComponent
+  },
+  {
+    path: 'input-material', component: InputComponent
+  },
+  {
+    path: 'radio-material', component: RadioComponent
+  },
+  {
+    path: 'badge-material', component: BadgeComponent
+  },
+  {
+    path: 'chips-material', component: ChipsComponent
+  },
+  {
+    path: 'icon-material', component: IconComponent
+  },
+  {
+    path: 'bottom-sheet-material', component: BottomSheetComponent
+  },
+  {
+    path: 'dialog-material', component: DialogComponent
+  },
+  {
+    path: 'snackbar-material', component: SnackbarComponent
+  },
 ];
 
 @NgModule({

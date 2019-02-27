@@ -10,7 +10,12 @@ import {
   MatDividerModule,
   MatListModule,
   MatExpansionModule,
-  MatAutocompleteModule
+  MatAutocompleteModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatRadioModule,
+  MatBadgeModule,
+  MatBottomSheetModule
 } from '@angular/material';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -32,7 +37,12 @@ import { CommonModule } from '@angular/common';
     MatDividerModule,
     MatListModule,
     MatExpansionModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatRadioModule,
+    MatBadgeModule,
+    MatBottomSheetModule
   ],
   exports: [
     MatButtonModule,
@@ -46,7 +56,13 @@ import { CommonModule } from '@angular/common';
     MatDividerModule,
     MatListModule,
     MatExpansionModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatRadioModule,
+    MatBadgeModule,
+    MatBottomSheetModule
+    
   ]
 })
 export class MaterialModule { }
