@@ -22,7 +22,6 @@ export class HttpRequestComponent implements OnInit {
     this.foto = '';
     this.httpClient.get<any>('https://yesno.wtf/api/').subscribe(result => {
       this.answer = result.answer;
-      console.log(result);
       this.foto = result.image;
     });
   }

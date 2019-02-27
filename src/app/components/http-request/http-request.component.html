@@ -1,6 +1,22 @@
-<button (click)= "api()" mat-button>Get images</button>
+<div class="main-div">
 
-<img [src]="foto" alt="">
+    <mat-card class="center">
 
-{{ answer }}
+        <mat-card-title style="padding-left: 25px">
+            HttpClient - request example
+        </mat-card-title>
+        <mat-card-subtitle style="padding-left: 25px">
+            In Angular Material
+        </mat-card-subtitle>
+        <mat-card-content style="padding:25px">
 
+            <div>
+                <button class="full-width" color="accent" (click)="api()" mat-raised-button>Get images</button>
+            </div>
+            <br>
+            <div>
+                <img class="full-width" [src]="foto" alt="">
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
